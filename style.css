@@ -1,0 +1,247 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+  }
+
+.logohead {
+  /* background: linear-gradient(to right, rgb(92, 203, 255), rgb(0, 174, 255)); */
+  /* background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%) */
+  background-image: linear-gradient(to right, #0072ff 0%, #00c6ff  51%, #0072ff  100%)
+}
+.custom-btn {
+  border: 2px solid #007bff; 
+  border-radius: 8px;
+  background-color: white;
+  color: #007bff;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+.banner-notice-text span img {
+  height: 30px;
+  width: auto;
+}
+.latest-notifications {
+  width: 18%;
+
+  font-style: italic;
+  font-size: 16px;
+  margin-top: -9px;
+  position: absolute;
+  left: 0;
+  background: #c72828;
+  height: 45px;
+  padding: 10px 10px;
+  z-index: 1;
+}
+.latest-notifications a {
+  color: white;
+  text-decoration: none;
+}
+.banner-notice {
+  padding: 9px;
+  background: linear-gradient(45deg, #e2bc00, #ef9f00);
+  height: 45px;
+  width: 100%;
+  font-size: 14px;
+}
+.banner-notice-text .txt {
+  color: rgb(255, 255, 255);
+}
+.banner-notice-text a {
+  text-decoration: none;
+}
+.nav-item :hover {
+  color: rgb(219, 242, 255);
+}
+
+.icon-box {
+  min-height: 280px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  transition: 0.3s ease;
+}
+
+.icon-box:hover {
+  background: #e2e6ea;
+  transform: translateY(-5px);
+}
+
+.icon-box i {
+  font-size: 48px;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.icon-box h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.icon-box p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.notice-board {
+  max-height: 400px; 
+  overflow-y: scroll;
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+.notice-item {
+  margin-bottom: 10px;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-left: 4px solid #0d6efd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.notice-item a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+.design .notice-item a {
+  text-decoration: none;
+  color: #fd0d0d;
+}
+.notice-item a:hover {
+  text-decoration: underline;
+}
+.footerclr{
+    background-color: #0a306a;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.info-section {
+    background-color: #003366; 
+    color: white;
+    padding: 30px 0;
+  }
+  .info-box h5 {
+    margin: 15px 0 10px;
+  }
+  .info-box a.btn {
+    background-color: #0055aa;
+    color: white;
+  }
+  .info-box a.btn:hover {
+    background-color: #0077cc;
+    color: white;
+  }
+  .info-box img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1); 
+  }
+  .navbar-custom{
+    /* background: linear-gradient(to right, rgb(92, 203, 255), rgb(0, 174, 255)); */
+    /* background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%) */
+    background-image: linear-gradient(to right, #0072ff 0%, #00c6ff  51%, #0072ff  100%)
+  }
+  .quicklink-btn {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  .quicklink-container {
+    max-width: 900px;
+    margin: auto;
+    gap: 0;
+  }
+
+  .quicklink-col {
+    padding: 5px;
+    border: 1px solid #ffffff;
+  }
+  .quicklink-col :hover{
+    color: rgb(0, 85, 255);
+    border: none;
+    background-color: #ffc400;
+
+  }
+
+  .florence-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .florence-section {
+    padding: 30px;
+  }
+
+  .florence-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn-custom-1 {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+  }
+
+  .btn-custom-2 {
+    background-color: #28a745;
+    color: white;
+    font-weight: 600;
+  }
+  .custom-login :hover{
+    background-color: #ffb700;
+    color: #ffffff;
+    
+  }
+ 
+  
+  .back-button {
+    display: inline-block ;
+    padding: 10px 20px;
+    background-color: #e90000;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+ .section-icon{
+  color: #ffb300;
+ }
+ 
+.headtxt{
+  color: #0072ff;
+  
+ }
+ 
