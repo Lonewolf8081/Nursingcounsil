@@ -1,0 +1,39 @@
+<div class="quicklink-col d-flex">
+  <a href="" 
+     target="_blank" 
+     class="btn btn-primary data-bs-toggle="modal" data-bs-target="#loginModal quicklink-btn w-100 "><i class="fa-solid fa-right-to-bracket"></i>
+    Institutional Login
+  </a>
+</div>
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="loginModalLabel">Institutional Login</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <!-- Email or Mobile -->
+          <div class="mb-3">
+            <label for="loginCredential" class="form-label">Registered Email ID or Mobile Number</label>
+            <input type="text" class="form-control" id="loginCredential" placeholder="Enter your email or mobile number" required>
+          </div>
+
+          <!-- Password -->
+          <div class="mb-3">
+            <label for="loginPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password" required>
+          </div>
+
+          <!-- Buttons -->
+          <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Register</button>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
